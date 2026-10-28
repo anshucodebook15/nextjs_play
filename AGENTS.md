@@ -11,8 +11,8 @@ This version has breaking changes — APIs, conventions, and file structure may 
 Read the following files in order before implementing or making any architectural decision:
 
 1. `agents/description.md` — project name, project description, primary goals, features about
-1. `agents/rules.md` — features rules, naming conventions, and others
-1. `agents/design.md` — Design of datatable with tailwind CSS
+2. `agents/rules.md` — features rules, naming conventions, and others
+3. `agents/git_workflow.md` — follow the project’s Git workflow and contribution requirements
 
 Update `context/progress-tracker.md` after each meaningful implementation change.
 

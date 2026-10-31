@@ -12,7 +12,8 @@ Read the following files in order before implementing or making any architectura
 
 1. `agents/description.md` — project name, project description, primary goals, features about
 2. `agents/rules.md` — features rules, naming conventions, and others
-3. `agents/git_workflow.md` — follow the project’s Git workflow and contribution requirements
+3. `agents/testing.md` — testing setup, test locations, and validation commands
+4. `agents/git_workflow.md` — follow the project’s Git workflow and contribution requirements
 
 Update `context/progress-tracker.md` after each meaningful implementation change.
 

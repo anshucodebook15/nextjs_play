@@ -1,3 +1,10 @@
+## 2026-11-04
+
+- Added an isolated `/form-preview` demo with two responsive columns: editable form title, name label, and message heading alongside an interactive live preview. Added a feature contract in `context/form-preview-contract.md`.
+- Kept state in `useFormPreview`, composition in the feature entry, and presentation in prop-driven components. Settings are memory-only and reset on navigation/reload; this demo has no persistence or submission.
+- Added an interaction test for live changes, preservation of preview input, and accessible fallback labels.
+- Verification: all 3 test files / 8 tests passed; TypeScript, targeted ESLint, changed-file Prettier, and `git diff --check` passed. Full ESLint completed with 0 errors and 3 existing warnings. Repository-wide formatting reports 31 existing files. Production build and browser layout have not been verified.
+
 ## 2026-11-03
 
 - Revised `agents/feature.md` into a standard feature contract, folder/responsibility map, prescribed runtime flows, dependency-ordered implementation process, complex todo workflow, tradeoff evaluation, and reusable AI task brief. Standardized the hook boundary in `agents/rules.md`; services remain conditional on domain logic. No application code changed.

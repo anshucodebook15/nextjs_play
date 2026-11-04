@@ -1,3 +1,14 @@
+## 2026-11-03
+
+- Revised `agents/feature.md` into a standard feature contract, folder/responsibility map, prescribed runtime flows, dependency-ordered implementation process, complex todo workflow, tradeoff evaluation, and reusable AI task brief. Standardized the hook boundary in `agents/rules.md`; services remain conditional on domain logic. No application code changed.
+
+- Added `agents/feature.md`, an AI implementation template based on todos with types, immutable store actions, selector-based hooks, UI wiring, optional services/API, and verification guidance. Aligned the rules' flow with direct store actions for simple operations; application code remains unchanged.
+
+- Reformatted all 17 sections of `agents/new-rule.md` to follow heading, example, then Rules, with section separators; retained the existing guidance.
+
+- Reviewed `agents/rules.md` and the todos feature's component, hook, service, Zustand store, types, constants, and empty API file.
+- Created `agents/new-rule.md` as a concise proposed rules replacement with form-related examples, naming and import conventions, layer responsibilities, and an explicit state/API flow. Corrected import examples to match the root-based `@/` alias; preserved `agents/rules.md` and application code.
+
 ## 2026-10-28
 
 - Added the `/pix` App Router route in `src/app/pix/page.tsx` with a default-exported `PixPage` component.

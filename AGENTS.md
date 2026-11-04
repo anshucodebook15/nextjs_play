@@ -16,7 +16,7 @@ Read the following files in order before implementing or making any architectura
 4. `agents/testing.md` — testing setup, test locations, and validation commands
 5. `agents/git_workflow.md` — follow the project’s Git workflow and contribution requirements
 
-Before developing a new feature, also read `agents/new-feature.md` and replicate its todos-based skeleton first. It supersedes conflicting naming, scaffolding, and action-flow examples in `agents/rules.md` and `agents/feature.md`.
+Before developing a new feature, also read `agents/feature.md` and replicate its todos-based skeleton first. It supersedes conflicting naming, scaffolding, and action-flow examples in `agents/rules.md`.
 
 Update `context/progress-tracker.md` after each meaningful implementation change.
 

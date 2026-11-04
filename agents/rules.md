@@ -1,6 +1,6 @@
 # Form Builder Feature Rules
 
-Proposed replacement for `agents/rules.md`. Examples describe the forms feature; create files only when needed. Existing code is a flow reference, not an exception to these naming rules.
+For new features, `agents/new-feature.md` supersedes conflicting filename, scaffolding, entry export, and action-flow examples below. Replicate the todos skeleton first, including the service facade for shared-state actions. Other coding, validation, and testing standards still apply.
 
 ---
 

@@ -1,6 +1,6 @@
 ﻿# Standard Feature Template for AI
 
-Use this process for every new interactive feature. The todo feature demonstrates the separation of UI, React logic, domain operations, and state. Follow the responsibilities below rather than copying its unfinished implementation.
+For new features, follow `agents/new-feature.md` first. Its exact todos filenames, baseline scaffolding, default singular feature entry, and hook -> service -> store mutation flow supersede conflicting examples and optional-service guidance below. The remaining responsibility, product correctness, and verification guidance still applies.
 
 ---
 

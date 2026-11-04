@@ -1,5 +1,9 @@
 ## 2026-11-04
 
+- Studied every todos source file, its empty components folder, and its route. Added `agents/new-feature.md` with 11 ordered steps, each containing a heading, source-based example, and rules for replicating the exact skeleton, filenames, exports, Zustand state, service facade, hook subscription, entry, and runtime flow before development.
+- Documented actual gaps: empty API/components, disconnected constants, placeholder UI, and removal exposed only in the store. Updated AGENTS and the older rules/template with explicit precedence for the requested todos-based standard. No application code changed.
+- Verification: compared guide examples against todos source, formatted the new guide with Prettier, and passed `git diff --check`. Application tests were not rerun for this documentation-only change.
+
 - Added an isolated `/form-preview` demo with two responsive columns: editable form title, name label, and message heading alongside an interactive live preview. Added a feature contract in `context/form-preview-contract.md`.
 - Kept state in `useFormPreview`, composition in the feature entry, and presentation in prop-driven components. Settings are memory-only and reset on navigation/reload; this demo has no persistence or submission.
 - Added an interaction test for live changes, preservation of preview input, and accessible fallback labels.
